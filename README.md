@@ -12,5 +12,5 @@ vp.vp("read(variable)")   # Doesn't print it. Use print(vp.vp("read(variable)"))
 vp.vp(“write(variable=something)”)   # Variable needs to exist.
 
 !NB!
-Use: pip install variables plus
+Use: pip install variablesplus
 But, to import it: import vb
