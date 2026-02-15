@@ -10,3 +10,7 @@ vp.vp("clear(variable)")   # Leave clear() empty to clear all variables.
 vp.vp("delete(variable)")   # Variable needs to exist.
 vp.vp("read(variable)")   # Doesn't print it. Use print(vp.vp("read(variable)")) to print the variables contents.
 vp.vp(“write(variable=something)”)   # Variable needs to exist.
+
+!NB!
+Use: pip install variables plus
+But, to import it: import vb
