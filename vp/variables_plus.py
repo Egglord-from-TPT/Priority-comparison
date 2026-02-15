@@ -36,6 +36,11 @@ def variables_plus(cmd):
                             raise TypeError("Variable", i, "doesn't exist.")
         else:
             raise SyntaxError("You can't delete a blank variable.")
+    elif cmd.startswith("read(") and cmd.endswith(")"):
+        if cmd[5:-1] in globals():
+            return globals()[cmd[5:-1]]
+        else:
+            raise TypeError("Variable", cmd[5:-1], "doesn't exist.")
     else:
-        raise TypeError("Invalid command! Use variables_plus(clear()), variables_plus(create()) or variables_plus(delete()). You can also shorten 'variables_plus' to 'vp'.")
+        raise TypeError("Invalid command! Use vp.vp(clear()), vp.vp(create()),  or vp.vp(delete()).")
 vp=variables_plus
