@@ -18,8 +18,12 @@ def variables_plus(cmd):
     elif cmd.startswith("create(") and cmd.endswith(")"):
         if not cmd[7:-1] == "":
             try:
-                a,b=cmd[7:-1].split("=", 1)
-                globals()[a]=b
+                if "=" in cmd[7:-1]:
+                    a,b=cmd[7:-1].split("=", 1)
+                    globals()[a]=b
+                else:
+                    a=cmd[7:-1]
+                    globals()[a]=""
             except Exception:
                 raise TypeError("I don't even know what you did wrong, but you did something wrong.")
         else:
