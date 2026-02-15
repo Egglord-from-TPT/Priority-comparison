@@ -13,4 +13,4 @@ vp.vp(“write(variable=something)”)   # Variable needs to exist.
 
 !NB!
 Use: pip install variablesplus
-But, to import it: import vb
+But, to import it: import vp
