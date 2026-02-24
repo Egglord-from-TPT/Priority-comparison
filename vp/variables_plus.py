@@ -5,12 +5,12 @@ def variables_plus(cmd):
     if cmd.startswith("clear(") and cmd.endswith(")"):
         if cmd[6:-1] == "":
             for i in globals():
-                if not i.startswith("__") and not callable(i) and not i.startswith("<function") and not i:
+                if not i.startswith("__") and not callable(i) and not i.startswith("<function"):
                     globals()[i]=""
         else:
             try:
                 for i in globals():
-                    if not i.startswith("__") and not callable(i) and not i.startswith("<function") and not i:
+                    if not i.startswith("__") and not callable(i) and not i.startswith("<function"):
                         if i==cmd[6:-1]:
                             globals()[i]=""
             except Exception:
