@@ -4,7 +4,7 @@ setup(
     name="prioritycomparison",
     version="1.0.0",
     packages=find_packages(),
-    description="A simple library to create, clear, and delete global variables",
+    description="A simple Python library that lets you check comparisons in order of priority (importance).",
     author="",
     python_requires=">=3.7",
 )
