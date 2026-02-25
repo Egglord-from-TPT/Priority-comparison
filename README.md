@@ -1,16 +1,18 @@
-# variables_plus
+# priocomp
 
-A simple Python library to create, clear, read, write and delete global variables.
+A simple Python library that lets you check comparisons in order of priority (importance).
 
-This is my first python library :D
+This is my third python library :D
 
 Commands:
-vp.vp("create(variable=something)")   # Remove =something to create a blank variable.
-vp.vp("clear(variable)")   # Leave clear() empty to clear all variables.
-vp.vp("delete(variable)")   # Variable needs to exist.
-vp.vp("read(variable)")   # Doesn't print it. Use print(vp.vp("read(variable)")) to print the variables contents.
-vp.vp(“write(variable=something)”)   # Variable needs to exist.
+priocomp.pc.get()
+priocomp.pc.add()
+priocomp.pc.clear()
+priocomp.pc.remove()
+priocomp.pc.peek()
+priocomp.pc.size()
+priocomp.pc.is_empty()
 
 !NB!
-Use: pip install variablesplus
-But, to import it: import vp
+Use: pip install priocomp
+But, to import it to python: import priocomp
