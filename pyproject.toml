@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "priocomp"
 version = "1.0.0"
-description = "A Python package for handling variables, also my first library. I hope you enjoy! You can create, clear, write to, delete and read variables."
+description = "A simple Python library that lets you check comparisons in order of priority (importance)."
 readme = "README.md"
 requires-python = ">=3.8"
 authors = [
