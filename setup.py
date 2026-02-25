@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="variables_plus",
-    version="2.3.0",
+    name="prioritycomparison",
+    version="1.0.0",
     packages=find_packages(),
     description="A simple library to create, clear, and delete global variables",
     author="",
