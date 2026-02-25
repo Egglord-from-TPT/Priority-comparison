@@ -3,8 +3,8 @@ requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "variablesplus"
-version = "2.3.0"
+name = "priocomp"
+version = "1.0.0"
 description = "A Python package for handling variables, also my first library. I hope you enjoy! You can create, clear, write to, delete and read variables."
 readme = "README.md"
 requires-python = ">=3.8"
