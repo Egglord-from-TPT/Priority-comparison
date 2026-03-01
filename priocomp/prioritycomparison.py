@@ -1,5 +1,5 @@
 qaws={}
-class priority_comparison():
+class priocomp():
     def add(a,imp):
         qaws[len(qaws)]=[a,imp]
     def clear():
@@ -52,4 +52,4 @@ class priority_comparison():
         return True if a==-1 else False
     def list_all():
         return qaws
-pc=priority_comparison
+pc=priocomp
