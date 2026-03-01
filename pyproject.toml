@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "priocomp"
-version = "1.1.0"
+version = "1.1.1"
 description = "A simple Python library that lets you check comparisons in order of priority (importance)."
 readme = "README.md"
 requires-python = ">=3.8"
